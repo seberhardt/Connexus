@@ -112,8 +112,12 @@ public class MainActivity extends AppCompatActivity {
     }
 //FIND CARE FUNCTION
     public void openFindCare() {
-        Intent mainActivityToFindCare = new Intent(this, HealthCenterListActivity.class);
+
+//        Intent mainActivityToFindCare = new Intent(this, HealthCenterListActivity.class);
+//        startActivity(mainActivityToFindCare);
+        Intent mainActivityToFindCare = new Intent(this, TabActivity.class);
         startActivity(mainActivityToFindCare);
+
     }
 
 
