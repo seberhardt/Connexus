@@ -18,6 +18,6 @@ public class FindCareTab extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.find_care_city_selection, container, false);
+        return inflater.inflate(R.layout.chat_tab, container, false);
     }
 }

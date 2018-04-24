@@ -32,6 +32,9 @@ public class TabActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new LearnTab(), "More Info");
         adapter.addFragment(new FindCareTab(), "Find Care");
+        adapter.addFragment(new Chat_Tab(), "Doctor Chat");
+        adapter.addFragment(new VisitWeb(), "Website");
+        viewPager.setAdapter(adapter);
     }
 
 }
